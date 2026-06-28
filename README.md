@@ -1,16 +1,18 @@
-# React + Vite
+# Business Management Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A demo application built to give clients a concrete look at what a custom business management system could look like for their operation.
 
-Currently, two official plugins are available:
+It covers common workflows out of the box: jobs, invoices, estimates, contacts, inventory, and file management. It is designed to be tailored to fit a specific business's needs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Dashboard with activity feed and key stats
+- Job tracking and detail views
+- Invoice and estimate management
+- Contact directory
+- Inventory table
+- File management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Built with React and Vite.
